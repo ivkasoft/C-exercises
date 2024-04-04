@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //1
+    /*int a;
+    int* pa;
+    printf("%d\n",&a);
+    printf("%d\n",a);
+    printf("%d\n",pa);
+
+    printf("Enter value for a:\n");
+    scanf("%d",&a);
+    pa=&a;
+    printf("%d\n",&a);
+    printf("%d\n",a);
+    printf("%d\n",pa);*/
+
+    //2
+    /*int *i;
+    double *f;
+    char *c;
+    void *v;
+    printf("int: %d\n",sizeof(*i));
+    printf("double: %d\n",sizeof(*f));
+    printf("char: %d\n",sizeof(*c));
+    printf("void: %d\n",sizeof(*v));*/
+
+    //3
+    int n;
+    printf("Input the numbers of elements to store in the array: \n");
+    scanf("%d",&n);
+    int arr[n];
+    int *p;
+    p=arr;
+    printf("Input %d number of elements to store in the array: \n",n);
+    for (int i=0;i<n;i++){
+        scanf("%d",(p+i));
+    }
+    for(int i=0;i<n;i++){
+        printf("element- %d:%d\n",i,*(p+i));
+    }
+
+
+    return 0;
+}
