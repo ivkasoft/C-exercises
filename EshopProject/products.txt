@@ -1,0 +1,4 @@
+1,laptop,eldevices,1100.000000,7
+2,mouse,eldevices,50.000000,7
+3,Gaming laptop,laptop,1000.000000,13
+4,Monitor LED,monitor,150.000000,7
